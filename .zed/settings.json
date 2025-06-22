@@ -1,0 +1,13 @@
+{
+  "languages": {
+    "Elixir": {
+      "language_servers": ["elixir-ls", "tailwindcss-language-server"] // <- `next-ls` or `lexical`
+    },
+    "HEEX": {
+      "language_servers": [
+        "elixir-ls",
+        "tailwindcss-language-server"
+      ]
+    }
+  }
+}

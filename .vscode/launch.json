@@ -11,7 +11,7 @@
             "task": "phx.server",
             "projectDir": "${workspaceRoot}",
             "debugAutoInterpretAllModules": false,
-            "debugInterpretModulesPatterns": ["MyLoginApp*", "MyLoginAppWeb*", "Phoenix.LiveView*"],
+            "debugInterpretModulesPatterns": ["MyLoginApp*", "MyLoginAppWeb*"],
             "exitAfterTaskReturns": false,
         },
         {
