@@ -10,6 +10,11 @@ defmodule MyLoginAppWeb.RoomChannel do
     end
   end
 
+  @impl true
+  def join("room:" <> _private_room_id, _params, _socket) do
+    {:error, %{reason: "unauthorized"}}
+  end
+
   # Channels can be used in a request/response fashion
   # by sending replies to requests from the client
   @impl true
